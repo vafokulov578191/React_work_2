@@ -1,0 +1,15 @@
+.Unicef {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1D1D1F;
+    margin-top: 50px;
+}
+
+.Unicef span {
+    color: #2997ff;
+}
+

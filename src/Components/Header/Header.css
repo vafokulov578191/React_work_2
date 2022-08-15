@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 10000;
+}
+
+.header span {
+    cursor: pointer;
+}
+
+.header_count {
+    width: 1024px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 0px auto;
+    color: #999999;
+}
+

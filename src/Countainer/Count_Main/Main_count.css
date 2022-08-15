@@ -1,0 +1,53 @@
+.Main_count {
+    width: 100%;
+    height: 736px;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Main_count_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main_count_right img {
+    width: 1920px;
+    height: 100%;
+}
+
+.Main_count_left {
+    position: absolute;
+    top: 132px;
+    left: 345px;
+    width: 500px;
+    height: 519px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mac {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.battery {
+    font-size: 30px;
+    color: #58585B;
+}
+
+.main_count_link {
+    display: flex;
+    gap: 20px;
+}
+
+.main_count_link span{
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}
+

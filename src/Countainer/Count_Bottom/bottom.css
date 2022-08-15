@@ -1,0 +1,45 @@
+.Bottom_count {
+    width: 100%;
+    height: 736px;
+    background-color: #FBFBFD;
+    overflow: hidden;
+    position: relative;
+}
+
+.Bottom_count_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bottom_count_text {
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 103px;
+    gap: 15px;
+}
+
+.Bottom_count_span1 {
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.Bottom_count_span2 {
+    font-size: 30px;
+}
+
+.Bottom_count_link {
+    display: flex;
+    gap: 30px;
+}
+
+.Bottom_count_link span {
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}
+

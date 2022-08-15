@@ -1,0 +1,46 @@
+.Main {
+    width: 933px;
+    height: 625px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.main_title {
+    width: 100%;
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+    top: 50px;
+}
+
+.main_title_text {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.main_title_text_2 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.main_links {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    color: #2790F4;
+}
+
+.main_img img {
+    width: 933px;
+    height: 624px;
+}
+
+.active {
+    color: black;
+}
